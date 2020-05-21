@@ -11,5 +11,6 @@ namespace DatingApp.API.Data
         // 'prop' to select auto-create a property (with get/set accessors)
         public DbSet<Value> Values { get; set; }
         
+        public DbSet<User> Users { get; set; }
     }
 }
